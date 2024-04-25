@@ -1,0 +1,46 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #F4F4FF;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(204, 204, 255, 0.9);
+  }
+  
+  h1 {
+    color: #C8AAFF; /* лилаво */
+  }
+  
+  h2 {
+    color: #584A71; /* лилаво със сиво */
+  }
+  
+  p {
+    color: #38373B; /* графитено сиво */
+  }
+  
+  a {
+    color: #620CFF; /* тъмно лилаво */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Допълнителен стил за елемента на линка */
+  .link {
+    font-weight: bold;
+  }
+  .section-content {
+      display: none;
+    }
+    
+    .section-content.show {
+      display: block;
+    }
+    
+    .section-title {
+      cursor: pointer;
+    }
